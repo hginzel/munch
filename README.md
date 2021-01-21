@@ -12,6 +12,7 @@ Munch is a dictionary that supports attribute-style access, a la JavaScript:
 
 ```python
 
+>>> from munch import Munch
 >>> b = Munch()
 >>> b.hello = 'world'
 >>> b.hello
